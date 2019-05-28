@@ -1,0 +1,21 @@
+Package: SBGNview.data
+Title: Demo gene expression datasets for SBGNview package
+Description: 
+    This package contains:
+    1. A microarray gene expression dataset from a human breast cancer study.
+    2. A RNA-Seq gene expression dataset from a mouse study on IFNG knockout.
+Version: 0.99.14
+Author:
+    Xiaoxi Dong, Weijun Luo
+Maintainer: Xiaoxi Dong <dfdongxiaoxi@gmail.com>
+Depends: 
+    R (>= 3.6)
+License: EPL
+Collate: data.R
+Suggests: 
+    knitr,
+    SummarizedExperiment
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
+biocViews: ExperimentData, CancerData, BreastCancerData,
+        MicroarrayData, GEO, RNASeqData
