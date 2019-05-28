@@ -4,7 +4,7 @@ Description:
     This package contains:
     1. A microarray gene expression dataset from a human breast cancer study.
     2. A RNA-Seq gene expression dataset from a mouse study on IFNG knockout.
-Version: 0.99.14
+Version: 0.99.15
 Author:
     Xiaoxi Dong, Weijun Luo
 Maintainer: Xiaoxi Dong <dfdongxiaoxi@gmail.com>
