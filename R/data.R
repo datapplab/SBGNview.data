@@ -62,6 +62,26 @@ NULL
 #' @rdname mapping
 'mmu_KO_ENTREZID'
 
+#' @rdname mapping
+"chebi_CompoundName"         
+
+#' @rdname mapping
+"CompoundName_pathwayCommons"
+
+#' @rdname mapping
+"kegg.ligand_pathwayCommons" 
+
+#' @rdname mapping
+"KO_pathway.id"              
+
+#' @rdname mapping
+"KO_pathwayCommons"          
+
+#' @rdname mapping
+"SYMBOL_pathway.id"  
+
+#' @rdname mapping
+"pathwayCommons_SYMBOL"  
 
 
 #' @rdname mapping

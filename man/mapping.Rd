@@ -9,6 +9,13 @@
 \alias{mmu_KO_ENSEMBL}
 \alias{chebi_pathway.id}
 \alias{mmu_KO_ENTREZID}
+\alias{chebi_CompoundName}
+\alias{CompoundName_pathwayCommons}
+\alias{kegg.ligand_pathwayCommons}
+\alias{KO_pathway.id}
+\alias{KO_pathwayCommons}
+\alias{SYMBOL_pathway.id}
+\alias{pathwayCommons_SYMBOL}
 \alias{chebi_pathwayCommons}
 \alias{mmu_pathwayCommons_ENSEMBL}
 \alias{hsa_ENTREZID_pathwayCommons}
@@ -26,6 +33,20 @@ mmu_KO_ENSEMBL
 chebi_pathway.id
 
 mmu_KO_ENTREZID
+
+chebi_CompoundName
+
+CompoundName_pathwayCommons
+
+kegg.ligand_pathwayCommons
+
+KO_pathway.id
+
+KO_pathwayCommons
+
+SYMBOL_pathway.id
+
+pathwayCommons_SYMBOL
 
 chebi_pathwayCommons
 
