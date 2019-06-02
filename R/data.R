@@ -11,6 +11,23 @@
 #' This dataset is constructed using the first three columns of data **gse16873.d** in package **pathview** (i.e. columns "DCIS_1","DCIS_2" and "DCIS_3"). the original values were used without additional processing. It is constructed for showing SBGNview's visualization ability, not for data analysis. Each column in the assay table is a pair of cancer-v.s.-control samples. The value of a gene in a column is the log fold change of this gene in the corresponding pair of cancer-v.s.-control samples.
 'cancer.ds'
 
+#' XML code of a SBGN-ML file
+#' @format A list of character strings
+#' @details 
+#' Each string is the full XML code of a SBGN-ML file. It includes glyphs and arcs of a SBGN map.
+'sbgn.xmls'
+
+#' Cutoffs of pathway completeness used for defining existance of pathway in a species
+#' @format A matrix
+#' @details 
+'pathway.completeness.cutoff.info'
+
+
+#' Pathway completeness of pathway in a species
+#' @format A matrix
+#' @details 
+'pathway.species.pct_Mapped'
+
 #' Mapping table between two types of IDs
 #' @format A matrix with two columns: the ID mapping between two types of IDs.
 #' @details Each dataset contains a mapping table. There are several types of ID pairs, such as molecule ID <=> pathway_glyph_ID, molecule ID <=> pathway ID, and molecule ID <=> KEGG ortholog ID. molecule ID <=> pathway_glyph_ID tables are extracted from Biopax files. For example: http://www.pathwaycommons.org/archives/PC3/v10/PathwayCommons10.reactome.BIOPAX.owl.gz.  Glyph IDs are extracted from the ID of each XML element "Protein". Its matching molecule ID is extracted from the corresponding XML child element "UnificationXref". See more details and examples in vignette 'SBGNview.data.vignette'

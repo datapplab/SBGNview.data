@@ -12,6 +12,7 @@ Depends:
     R (>= 3.6)
 License: EPL
 Collate: data.R
+LazyData: TRUE
 Suggests: 
     knitr,
     SummarizedExperiment
