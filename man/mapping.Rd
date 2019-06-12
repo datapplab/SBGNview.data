@@ -12,6 +12,8 @@
 \alias{chebi_CompoundName}
 \alias{CompoundName_pathwayCommons}
 \alias{kegg.ligand_pathwayCommons}
+\alias{hsa_pathwayCommons_ENSEMBL}
+\alias{mmu_pathwayCommons_ENTREZID}
 \alias{KO_pathway.id}
 \alias{KO_pathwayCommons}
 \alias{SYMBOL_pathway.id}
@@ -39,6 +41,10 @@ chebi_CompoundName
 CompoundName_pathwayCommons
 
 kegg.ligand_pathwayCommons
+
+hsa_pathwayCommons_ENSEMBL
+
+mmu_pathwayCommons_ENTREZID
 
 KO_pathway.id
 

@@ -73,6 +73,12 @@ NULL
 "kegg.ligand_pathwayCommons" 
 
 #' @rdname mapping
+"hsa_pathwayCommons_ENSEMBL"              
+
+#' @rdname mapping
+"mmu_pathwayCommons_ENTREZID"              
+
+#' @rdname mapping
 "KO_pathway.id"              
 
 #' @rdname mapping

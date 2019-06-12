@@ -1,5 +1,5 @@
 ---
-title: "Gene expression datasets used by SBGNview package"
+title: "Datasets used by SBGNview package"
 author: "Xiaoxi Dong, Weijun Luo"
 date:  "`r format(Sys.time(), '%d %B, %Y')`"
 output: 
@@ -12,7 +12,7 @@ editor_options:
 bibliography: REFERENCES.bib
 vignette: >
   %\VignetteIndexEntry{SBGNview functions}
-  %\VignetteEngine{knitr}
+  %\VignetteEngine{knitr::rmarkdown}
   \usepackage[utf8]{inputenc}
 ---
 ```{r , echo = FALSE, eval = TRUE, results = 'hide', message = FALSE, warning = FALSE}

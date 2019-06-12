@@ -3,12 +3,15 @@
 \docType{data}
 \name{pathway.species.pct_Mapped}
 \alias{pathway.species.pct_Mapped}
-\title{Pathway completeness of pathway in a species}
+\title{Pathway completeness in a species}
 \format{A matrix}
 \usage{
 pathway.species.pct_Mapped
 }
 \description{
-Pathway completeness of pathway in a species
+Pathway completeness in a species
+}
+\details{
+PathwayCommons only annotated human pathways, we mapped pathwayCommons' genes to other species using KEGG ortholog annotation. As a result, not all of the genes have corresponding genes in another species. We call the percentage of mapped genes the "coverage or completeness" in the species.
 }
 \keyword{datasets}

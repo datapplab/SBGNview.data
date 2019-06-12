@@ -11,4 +11,7 @@ pathway.completeness.cutoff.info
 \description{
 Cutoffs of pathway completeness used for defining existance of pathway in a species
 }
+\details{
+PathwayCommons only annotated human pathways, we mapped pathwayCommons' genes to other species using KEGG ortholog annotation. As a result, not all of the genes have corresponding genes in another species. We call the percentage of mapped genes the "coverage or completeness" in the species. To determin if a pathway exists in a species, we use a cutoff for this completeness. This cutoff is selected using the following approach: 1. A pathway has different completeness in different species thus form a completeness vector across all species (vector C) . 2. Use a completeness cutoff we can define whether this pathway "exists" in a species, thus form a label vector E (a pathway "Exist" or "not Exist" across all species). 3. Use one way ANOVA to calculate F statistic of completeness between the two groups ("Exist" or "not Exist"), thus one cutoff will have one F statistic. 4. Try different cutoffs(unique completeness values in vector C) and select the one with the largest F statistic, i.e. the cutoff the can maximize the difference between Exist" and "not Exist" groups. This is not a perfect way to define if a pathway exists in a species, but can serve as a filter criteria.
+}
 \keyword{datasets}
