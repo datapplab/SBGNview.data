@@ -1,1 +1,4 @@
 exportPattern(".")
+import(rmarkdown)
+import(knitr)
+
