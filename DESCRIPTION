@@ -21,7 +21,7 @@ Imports:
     rmarkdown
 Suggests: 
     SummarizedExperiment
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 VignetteBuilder: knitr
 biocViews: ExperimentData, CancerData, BreastCancerData,
         MicroarrayData, GEO, RNASeqData

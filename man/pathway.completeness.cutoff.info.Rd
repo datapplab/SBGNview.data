@@ -4,7 +4,9 @@
 \name{pathway.completeness.cutoff.info}
 \alias{pathway.completeness.cutoff.info}
 \title{Cutoffs of pathway completeness used for defining existance of pathway in a species}
-\format{A matrix}
+\format{
+A matrix
+}
 \usage{
 pathway.completeness.cutoff.info
 }

@@ -22,7 +22,45 @@
 \alias{mmu_pathwayCommons_ENSEMBL}
 \alias{hsa_ENTREZID_pathwayCommons}
 \title{Mapping table between two types of IDs}
-\format{A matrix with two columns: the ID mapping between two types of IDs.}
+\format{
+A matrix with two columns: the ID mapping between two types of IDs.
+
+An object of class \code{data.frame} with 16601 rows and 2 columns.
+
+An object of class \code{data.frame} with 10446 rows and 3 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 384671 rows and 2 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 11016 rows and 2 columns.
+
+An object of class \code{data.frame} with 79911 rows and 2 columns.
+
+An object of class \code{data.frame} with 11105 rows and 3 columns.
+
+An object of class \code{data.frame} with 285207 rows and 2 columns.
+
+An object of class \code{data.frame} with 298727 rows and 2 columns.
+
+An object of class \code{data.frame} with 6448 rows and 2 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 383983 rows and 2 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 628413 rows and 2 columns.
+
+An object of class \code{data.frame} with 47719 rows and 2 columns.
+
+An object of class \code{data.frame} with 88148 rows and 2 columns.
+
+An object of class \code{data.frame} with 252730 rows and 2 columns.
+
+An object of class \code{data.frame} with 406940 rows and 3 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 60425 rows and 2 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 619656 rows and 2 columns.
+
+An object of class \code{matrix} (inherits from \code{array}) with 384671 rows and 2 columns.
+}
 \usage{
 ENZYME_pathway.id
 

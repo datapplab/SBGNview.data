@@ -4,7 +4,9 @@
 \name{pathway.species.pct_Mapped}
 \alias{pathway.species.pct_Mapped}
 \title{Pathway completeness in a species}
-\format{A matrix}
+\format{
+A matrix
+}
 \usage{
 pathway.species.pct_Mapped
 }

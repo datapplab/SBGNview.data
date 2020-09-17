@@ -4,7 +4,9 @@
 \name{IFNg}
 \alias{IFNg}
 \title{RNA-Seq result from a mouse IFNG knockout experiment}
-\format{A SummarizedExperiment object.}
+\format{
+A SummarizedExperiment object.
+}
 \usage{
 IFNg
 }

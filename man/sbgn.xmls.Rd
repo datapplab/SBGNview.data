@@ -4,7 +4,9 @@
 \name{sbgn.xmls}
 \alias{sbgn.xmls}
 \title{XML code of a SBGN-ML file}
-\format{A list of character strings}
+\format{
+A list of character strings
+}
 \usage{
 sbgn.xmls
 }
