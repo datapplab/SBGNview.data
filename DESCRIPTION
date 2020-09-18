@@ -14,7 +14,9 @@ Maintainer: Xiaoxi Dong <dfdongxiaoxi@gmail.com>
 Depends: 
     R (>= 3.6)
 License: AGPL-3
-Collate: data.R
+Collate: 
+    data.R
+    zzz.R
 LazyData: FALSE
 Imports: 
     knitr,
