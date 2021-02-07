@@ -5,7 +5,6 @@
 \alias{mapping}
 \alias{ENZYME_pathway.id}
 \alias{hsa_KO_ENTREZID}
-\alias{hsa_pathwayCommons_ENTREZID}
 \alias{mmu_KO_ENSEMBL}
 \alias{chebi_pathway.id}
 \alias{mmu_KO_ENTREZID}
@@ -28,8 +27,6 @@ A matrix with two columns: the ID mapping between two types of IDs.
 An object of class \code{data.frame} with 16601 rows and 2 columns.
 
 An object of class \code{data.frame} with 10446 rows and 3 columns.
-
-An object of class \code{matrix} (inherits from \code{array}) with 384671 rows and 2 columns.
 
 An object of class \code{matrix} (inherits from \code{array}) with 11016 rows and 2 columns.
 
@@ -65,8 +62,6 @@ An object of class \code{matrix} (inherits from \code{array}) with 384671 rows a
 ENZYME_pathway.id
 
 hsa_KO_ENTREZID
-
-hsa_pathwayCommons_ENTREZID
 
 mmu_KO_ENSEMBL
 
