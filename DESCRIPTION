@@ -16,7 +16,6 @@ Depends:
 License: AGPL-3
 Collate: 
     data.R
-    zzz.R
 LazyData: FALSE
 Imports: 
     knitr,
