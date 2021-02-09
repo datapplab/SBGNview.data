@@ -14,6 +14,6 @@ sbgn.xmls
 XML code of a SBGN-ML file
 }
 \details{
-Each string is the full XML code of a SBGN-ML file. It includes glyphs and arcs of a SBGN map. \strong{***Note:} Please note that \code{sbgn.xmls} is a large R object and will take a while to load. It is necessary to be loaded into the environment in order to access the pre-generated SBGN-ML files.
+Each string is the full XML code of a SBGN-ML file. It includes glyphs and arcs of a SBGN map. \strong{***Note:} Please note that \code{sbgn.xmls} is a large R object and will take a few seconds to load. It is necessary to be loaded into the environment in order to access the pre-generated SBGN-ML files.
 }
 \keyword{datasets}
