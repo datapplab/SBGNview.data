@@ -8,7 +8,7 @@
 A SummarizedExperiment object.
 }
 \usage{
-cancer.ds
+data(cancer.ds)
 }
 \description{
 A demo microarray dataset from a cancer study

@@ -59,39 +59,39 @@ An object of class \code{matrix} (inherits from \code{array}) with 619656 rows a
 An object of class \code{matrix} (inherits from \code{array}) with 384671 rows and 2 columns.
 }
 \usage{
-ENZYME_pathway.id
+data(ENZYME_pathway.id)
 
-hsa_KO_ENTREZID
+data(hsa_KO_ENTREZID)
 
-mmu_KO_ENSEMBL
+data(mmu_KO_ENSEMBL)
 
-chebi_pathway.id
+data(chebi_pathway.id)
 
-mmu_KO_ENTREZID
+data(mmu_KO_ENTREZID)
 
-chebi_CompoundName
+data(chebi_CompoundName)
 
-CompoundName_pathwayCommons
+data(CompoundName_pathwayCommons)
 
-kegg.ligand_pathwayCommons
+data(kegg.ligand_pathwayCommons)
 
-hsa_pathwayCommons_ENSEMBL
+data(hsa_pathwayCommons_ENSEMBL)
 
-mmu_pathwayCommons_ENTREZID
+data(mmu_pathwayCommons_ENTREZID)
 
-KO_pathway.id
+data(KO_pathway.id)
 
-KO_pathwayCommons
+data(KO_pathwayCommons)
 
-SYMBOL_pathway.id
+data(SYMBOL_pathway.id)
 
-pathwayCommons_SYMBOL
+data(pathwayCommons_SYMBOL)
 
-chebi_pathwayCommons
+data(chebi_pathwayCommons)
 
-mmu_pathwayCommons_ENSEMBL
+data(mmu_pathwayCommons_ENSEMBL)
 
-hsa_ENTREZID_pathwayCommons
+data(hsa_ENTREZID_pathwayCommons)
 }
 \description{
 Mapping table between two types of IDs

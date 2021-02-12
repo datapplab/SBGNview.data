@@ -8,7 +8,7 @@
 A list of character strings
 }
 \usage{
-sbgn.xmls
+data(sbgn.xmls)
 }
 \description{
 XML code of a SBGN-ML file

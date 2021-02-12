@@ -19,7 +19,8 @@ Collate:
 LazyData: FALSE
 Imports: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    bookdown
 Suggests: 
     SummarizedExperiment
 RoxygenNote: 7.1.1

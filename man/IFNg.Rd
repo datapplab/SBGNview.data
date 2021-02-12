@@ -8,7 +8,7 @@
 A SummarizedExperiment object.
 }
 \usage{
-IFNg
+data(IFNg)
 }
 \description{
 RNA-Seq result from a mouse IFNG knockout experiment

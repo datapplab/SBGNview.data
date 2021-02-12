@@ -8,7 +8,7 @@
 A matrix
 }
 \usage{
-pathway.species.pct_Mapped
+data(pathway.species.pct_Mapped)
 }
 \description{
 Pathway completeness in a species
