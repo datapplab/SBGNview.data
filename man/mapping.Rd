@@ -20,7 +20,7 @@
 \alias{chebi_pathwayCommons}
 \alias{mmu_pathwayCommons_ENSEMBL}
 \alias{hsa_ENTREZID_pathwayCommons}
-\alias{chebi_kegg.ligand}
+\alias{chebi_kegg}
 \alias{chebi_metacyc.SBGN}
 \title{Mapping table between two types of IDs}
 \format{
@@ -60,7 +60,7 @@ An object of class \code{matrix} (inherits from \code{array}) with 619656 rows a
 
 An object of class \code{matrix} (inherits from \code{array}) with 384671 rows and 2 columns.
 
-An object of class \code{data.frame} with 13049 rows and 2 columns.
+An object of class \code{matrix} (inherits from \code{array}) with 20692 rows and 2 columns.
 
 An object of class \code{matrix} (inherits from \code{array}) with 60659 rows and 2 columns.
 }
@@ -99,7 +99,7 @@ data(mmu_pathwayCommons_ENSEMBL)
 
 data(hsa_ENTREZID_pathwayCommons)
 
-data(chebi_kegg.ligand)
+data(chebi_kegg)
 
 data(chebi_metacyc.SBGN)
 }
