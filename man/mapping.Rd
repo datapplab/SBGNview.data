@@ -8,9 +8,9 @@
 \alias{mmu_KO_ENSEMBL}
 \alias{chebi_pathway.id}
 \alias{mmu_KO_ENTREZID}
-\alias{chebi_CompoundName}
-\alias{CompoundName_pathwayCommons}
-\alias{kegg.ligand_pathwayCommons}
+\alias{chebi_compound.name}
+\alias{compound.name_pathwayCommons}
+\alias{kegg_pathwayCommons}
 \alias{hsa_pathwayCommons_ENSEMBL}
 \alias{mmu_pathwayCommons_ENTREZID}
 \alias{KO_pathway.id}
@@ -22,6 +22,7 @@
 \alias{hsa_ENTREZID_pathwayCommons}
 \alias{chebi_kegg}
 \alias{chebi_metacyc.SBGN}
+\alias{compound.name_pathway.id}
 \title{Mapping table between two types of IDs}
 \format{
 A matrix with two columns: the ID mapping between two types of IDs.
@@ -60,9 +61,11 @@ An object of class \code{matrix} (inherits from \code{array}) with 619656 rows a
 
 An object of class \code{matrix} (inherits from \code{array}) with 384671 rows and 2 columns.
 
-An object of class \code{matrix} (inherits from \code{array}) with 20692 rows and 2 columns.
+An object of class \code{data.frame} with 20692 rows and 2 columns.
 
 An object of class \code{matrix} (inherits from \code{array}) with 60659 rows and 2 columns.
+
+An object of class \code{data.frame} with 571283 rows and 2 columns.
 }
 \usage{
 data(ENZYME_pathway.id)
@@ -75,11 +78,11 @@ data(chebi_pathway.id)
 
 data(mmu_KO_ENTREZID)
 
-data(chebi_CompoundName)
+data(chebi_compound.name)
 
-data(CompoundName_pathwayCommons)
+data(compound.name_pathwayCommons)
 
-data(kegg.ligand_pathwayCommons)
+data(kegg_pathwayCommons)
 
 data(hsa_pathwayCommons_ENSEMBL)
 
@@ -102,6 +105,8 @@ data(hsa_ENTREZID_pathwayCommons)
 data(chebi_kegg)
 
 data(chebi_metacyc.SBGN)
+
+data(compound.name_pathway.id)
 }
 \description{
 Mapping table between two types of IDs

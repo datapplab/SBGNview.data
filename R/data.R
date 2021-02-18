@@ -73,18 +73,18 @@ NULL
 
 #########################################################################################################
 #' @rdname mapping
-#' @usage data(chebi_CompoundName)
-"chebi_CompoundName"         
+#' @usage data(chebi_compound.name)
+"chebi_compound.name"         
 
 #########################################################################################################
 #' @rdname mapping
-#' @usage data(CompoundName_pathwayCommons)
-"CompoundName_pathwayCommons"
+#' @usage data(compound.name_pathwayCommons)
+"compound.name_pathwayCommons"
 
 #########################################################################################################
 #' @rdname mapping
-#' @usage data(kegg.ligand_pathwayCommons)
-"kegg.ligand_pathwayCommons" 
+#' @usage data(kegg_pathwayCommons)
+"kegg_pathwayCommons" 
 
 #########################################################################################################
 #' @rdname mapping
@@ -140,5 +140,10 @@ NULL
 #' @rdname mapping
 #' @usage data(chebi_metacyc.SBGN)
 'chebi_metacyc.SBGN'
+
+#########################################################################################################
+#' @rdname mapping
+#' @usage data(compound.name_pathway.id)
+'compound.name_pathway.id'
 
 #########################################################################################################
