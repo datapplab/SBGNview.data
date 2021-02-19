@@ -41,7 +41,7 @@
 
 #########################################################################################################
 #' Mapping table between two types of IDs
-#' @format A matrix with two columns: the ID mapping between two types of IDs.
+#' @format A matrix/data.frame with two columns: the ID mapping between two types of IDs.
 #' @details Each dataset contains a mapping table. There are several types of ID pairs, such as molecule ID <=> pathway_glyph_ID, molecule ID <=> pathway ID, and molecule ID <=> KEGG ortholog ID. molecule ID <=> pathway_glyph_ID tables are extracted from Biopax files. For example: http://www.pathwaycommons.org/archives/PC3/v10/PathwayCommons10.reactome.BIOPAX.owl.gz.  Glyph IDs are extracted from the ID of each XML element "Protein". Its matching molecule ID is extracted from the corresponding XML child element "UnificationXref". See more details and examples in vignette 'SBGNview.data.vignette'
 #' @name mapping
 NULL
@@ -145,5 +145,10 @@ NULL
 #' @rdname mapping
 #' @usage data(compound.name_pathway.id)
 'compound.name_pathway.id'
+
+#########################################################################################################
+#' @rdname mapping
+#' @usage data(compound.name_kegg)
+'compound.name_kegg'
 
 #########################################################################################################

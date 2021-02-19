@@ -23,9 +23,10 @@
 \alias{chebi_kegg}
 \alias{chebi_metacyc.SBGN}
 \alias{compound.name_pathway.id}
+\alias{compound.name_kegg}
 \title{Mapping table between two types of IDs}
 \format{
-A matrix with two columns: the ID mapping between two types of IDs.
+A matrix/data.frame with two columns: the ID mapping between two types of IDs.
 
 An object of class \code{data.frame} with 16601 rows and 2 columns.
 
@@ -66,6 +67,8 @@ An object of class \code{data.frame} with 20692 rows and 2 columns.
 An object of class \code{matrix} (inherits from \code{array}) with 60659 rows and 2 columns.
 
 An object of class \code{data.frame} with 571283 rows and 2 columns.
+
+An object of class \code{data.frame} with 61143 rows and 2 columns.
 }
 \usage{
 data(ENZYME_pathway.id)
@@ -107,6 +110,8 @@ data(chebi_kegg)
 data(chebi_metacyc.SBGN)
 
 data(compound.name_pathway.id)
+
+data(compound.name_kegg)
 }
 \description{
 Mapping table between two types of IDs
