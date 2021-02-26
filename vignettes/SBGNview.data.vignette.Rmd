@@ -10,11 +10,13 @@ output:
       fig_caption: yes
       number_sections: yes
       toc: yes
+      toc_float: 
+        collapsed: false
 editor_options: 
   chunk_output_type: console
 bibliography: REFERENCES.bib
 vignette: >
-  %\VignetteIndexEntry{SBGNview functions}
+  %\VignetteIndexEntry{Supporting Datasets for SBGNview Package}
   %\VignetteEngine{knitr::rmarkdown}
   \usepackage[utf8]{inputenc}
 ---
