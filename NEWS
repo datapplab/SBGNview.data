@@ -1,4 +1,10 @@
+VERSION 1.5.1/1.4.1 (2021-02)
+-------------
 
-version 0.99.10
+  o Major updates of SBGNview.data, by Kovidh Vegesna and Weijun Luo.
+  
+VERSION 0.99.100 (2019-05)
+-------------
 
-  o Added gene expression demo datasets.
+  o Initial release of SBGNview.data, developed by Xiaoxi Dong and Weijun Luo
+
